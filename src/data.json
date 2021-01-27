@@ -1,0 +1,101 @@
+{
+    "products": [
+      {
+        "_id": "anime1",
+        "image": "/images/One-Piece.jpg",
+        "title": "One Piece",
+        "description": "One Piece is a Japanese anime television series adapted from the manga of the same name by Eiichiro Oda. The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after unintentionally eating a Devil Fruit. With his crew of pirates, named the Straw Hat Pirates.",
+        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+        "price": 29.9
+      },
+      {
+        "_id": "anime2",
+        "image": "/images/NS.jpg",
+        "title": "Naruto Shippuden",
+        "description": "Naruto Shippuden is an anime series adapted from Part II of Masashi Kishimoto's manga series, with exactly 500 episodes. It is set two and a half years after Part I in the Naruto universe, following the ninja teenager Naruto Uzumaki and his allies.",
+        "availableSizes": ["Hulu", "Crunchyroll"],
+        "price": 18.9
+      },
+      {
+        "_id": "anime3",
+        "image": "/images/FairyTail.jpg",
+        "title": "Fairy Tail",
+        "description": "Fairy Tail is a Japanese manga series written and illustrated by Hiro Mashima. The story follows the adventures of Natsu Dragneel, a member of the popular wizard[a] guild Fairy Tail, as he searches the fictional world of Earth-land for the dragon Igneel.",
+        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+        "price": 14.9
+      },
+      {
+        "_id": "anime4",
+        "image": "/images/one-punch-man.jpg",
+        "title": "One-Punch Man",
+        "description": "One-Punch Man is a Japanese superhero franchise created by the artist ONE. It tells the story of Saitama, a superhero who can defeat any opponent with a single punch but seeks to find a worthy foe after growing bored by a lack of challenge due to his overwhelming strength.",
+        "availableSizes": ["Netflix", "Hulu", "Crunchyroll"],
+        "price": 25.9
+      },
+      {
+        "_id": "anime5",
+        "image": "/images/kuroko.jpg",
+        "title": "Kuroko's No Basket",
+        "description": "Kuroko's No Basket is a Japanese sports manga series written and illustrated by Tadatoshi Fujimaki. It tells the story of a high school basketball team trying to make it to the national tournament.",
+        "availableSizes": ["Crunchyroll"],
+        "price": 10.9
+      },
+      {
+        "_id": "anime6",
+        "image": "/images/mha.jpg",
+        "title": "My Hero Academia",
+        "description": "My Hero Academia a Japanese superhero manga series written and illustrated by Kōhei Horikoshi. The story follows Izuku Midoriya, a boy born without superpowers (called Quirks) in a world where they have become commonplace, but who still dreams of becoming a hero himself.",
+        "availableSizes": ["Funimation", "Hulu", "Crunchyroll"],
+        "price": 49.9
+      },
+      {
+        "_id": "anime7",
+        "image": "/images/Aot.jpeg",
+        "title": "Attack on Titan",
+        "description": "Attack on Titan is a Japanese dark fantasy anime television series adapted from the manga. It is set in a world where humanity lives inside cities surrounded by enormous walls due to the Titans, gigantic humanoid beings who devour humans seemingly without reason. The story follows the adventures of Eren Yeager.",
+        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+        "price": 14.9
+      },
+      {
+        "_id": "anime8",
+        "image": "/images/Naruto.jpg",
+        "title": "Naruto",
+        "description": "Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts.",
+        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+        "price": 25.9
+      },
+      {
+        "_id": "anime9",
+        "image": "/images/tokyo_ghoul.webp",
+        "title": "Tokyo Ghoul",
+        "description": "Tokyo Ghoul is a Japanese dark fantasy manga series written and illustrated by Sui Ishida. It was serialized in Shueisha's seinen manga magazine Weekly Young Jump between September 2011 and September 2014, and it has been collected in fourteen tankōbon volumes as of August 2014.",
+        "availableSizes": ["Funimation", "Hulu", "Crunchyroll"],
+        "price": 10.9
+      },
+      {
+        "_id": "anime10",
+        "image": "/images/black_butler.webp",
+        "title": "Black Butler",
+        "description": "Black Butler is a Japanese manga series written and illustrated by Yana Toboso. The series follows Ciel Phantomhive, a thirteen-year-old boy head of the Phantomhive household, an aristocratic family known as the Queen's Watchdog.",
+        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+        "price": 14.9
+      },
+      {
+        "_id": "anime11",
+        "image": "/images/tgohs.webp",
+        "title": "The God of High School",
+        "description": "The God of High School is an anime television series adaptation by MAPPA. It has been serialized in Naver's webtoon platform Naver Webtoon since April 2011, with the individual chapters collected and published by Imageframe under their Root label into one volume as of April 2020.",
+        "availableSizes": ["Crunchyroll"],
+        "price": 25.9
+      },
+      {
+        "_id": "anime12",
+        "image": "/images/SAO.jpg",
+        "title": "Sword Art Online",
+        "description": "Sword Art Online is a Japanese light novel series written by Reki Kawahara and illustrated by abec. The series takes place in the near future and focuses on protagonist Kazuto Kirito Kirigaya and Asuna Yuuki as they play through various virtual reality MMORPG worlds.",
+        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+        "price": 10.9
+      }
+    ]
+  }
+  
