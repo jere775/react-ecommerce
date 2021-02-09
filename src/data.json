@@ -1,101 +1,125 @@
 {
-    "products": [
-      {
-        "_id": "anime1",
-        "image": "/images/One-Piece.jpg",
-        "title": "One Piece",
-        "description": "One Piece is a Japanese anime television series adapted from the manga of the same name by Eiichiro Oda. The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after unintentionally eating a Devil Fruit. With his crew of pirates, named the Straw Hat Pirates.",
-        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
-        "price": 29.9
-      },
-      {
-        "_id": "anime2",
-        "image": "/images/NS.jpg",
-        "title": "Naruto Shippuden",
-        "description": "Naruto Shippuden is an anime series adapted from Part II of Masashi Kishimoto's manga series, with exactly 500 episodes. It is set two and a half years after Part I in the Naruto universe, following the ninja teenager Naruto Uzumaki and his allies.",
-        "availableSizes": ["Hulu", "Crunchyroll"],
-        "price": 18.9
-      },
-      {
-        "_id": "anime3",
-        "image": "/images/FairyTail.jpg",
-        "title": "Fairy Tail",
-        "description": "Fairy Tail is a Japanese manga series written and illustrated by Hiro Mashima. The story follows the adventures of Natsu Dragneel, a member of the popular wizard[a] guild Fairy Tail, as he searches the fictional world of Earth-land for the dragon Igneel.",
-        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
-        "price": 14.9
-      },
-      {
-        "_id": "anime4",
-        "image": "/images/one-punch-man.jpg",
-        "title": "One-Punch Man",
-        "description": "One-Punch Man is a Japanese superhero franchise created by the artist ONE. It tells the story of Saitama, a superhero who can defeat any opponent with a single punch but seeks to find a worthy foe after growing bored by a lack of challenge due to his overwhelming strength.",
-        "availableSizes": ["Netflix", "Hulu", "Crunchyroll"],
-        "price": 25.9
-      },
-      {
-        "_id": "anime5",
-        "image": "/images/kuroko.jpg",
-        "title": "Kuroko's No Basket",
-        "description": "Kuroko's No Basket is a Japanese sports manga series written and illustrated by Tadatoshi Fujimaki. It tells the story of a high school basketball team trying to make it to the national tournament.",
-        "availableSizes": ["Crunchyroll"],
-        "price": 10.9
-      },
-      {
-        "_id": "anime6",
-        "image": "/images/mha.jpg",
-        "title": "My Hero Academia",
-        "description": "My Hero Academia a Japanese superhero manga series written and illustrated by Kōhei Horikoshi. The story follows Izuku Midoriya, a boy born without superpowers (called Quirks) in a world where they have become commonplace, but who still dreams of becoming a hero himself.",
-        "availableSizes": ["Funimation", "Hulu", "Crunchyroll"],
-        "price": 49.9
-      },
-      {
-        "_id": "anime7",
-        "image": "/images/Aot.jpeg",
-        "title": "Attack on Titan",
-        "description": "Attack on Titan is a Japanese dark fantasy anime television series adapted from the manga. It is set in a world where humanity lives inside cities surrounded by enormous walls due to the Titans, gigantic humanoid beings who devour humans seemingly without reason. The story follows the adventures of Eren Yeager.",
-        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
-        "price": 14.9
-      },
-      {
-        "_id": "anime8",
-        "image": "/images/Naruto.jpg",
-        "title": "Naruto",
-        "description": "Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts.",
-        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
-        "price": 25.9
-      },
-      {
-        "_id": "anime9",
-        "image": "/images/tokyo_ghoul.webp",
-        "title": "Tokyo Ghoul",
-        "description": "Tokyo Ghoul is a Japanese dark fantasy manga series written and illustrated by Sui Ishida. It was serialized in Shueisha's seinen manga magazine Weekly Young Jump between September 2011 and September 2014, and it has been collected in fourteen tankōbon volumes as of August 2014.",
-        "availableSizes": ["Funimation", "Hulu", "Crunchyroll"],
-        "price": 10.9
-      },
-      {
-        "_id": "anime10",
-        "image": "/images/black_butler.webp",
-        "title": "Black Butler",
-        "description": "Black Butler is a Japanese manga series written and illustrated by Yana Toboso. The series follows Ciel Phantomhive, a thirteen-year-old boy head of the Phantomhive household, an aristocratic family known as the Queen's Watchdog.",
-        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
-        "price": 14.9
-      },
-      {
-        "_id": "anime11",
-        "image": "/images/tgohs.webp",
-        "title": "The God of High School",
-        "description": "The God of High School is an anime television series adaptation by MAPPA. It has been serialized in Naver's webtoon platform Naver Webtoon since April 2011, with the individual chapters collected and published by Imageframe under their Root label into one volume as of April 2020.",
-        "availableSizes": ["Crunchyroll"],
-        "price": 25.9
-      },
-      {
-        "_id": "anime12",
-        "image": "/images/SAO.jpg",
-        "title": "Sword Art Online",
-        "description": "Sword Art Online is a Japanese light novel series written by Reki Kawahara and illustrated by abec. The series takes place in the near future and focuses on protagonist Kazuto Kirito Kirigaya and Asuna Yuuki as they play through various virtual reality MMORPG worlds.",
-        "availableSizes": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
-        "price": 10.9
-      }
-    ]
-  }
+  "products": [
+    {
+      "_id": "anime1",
+      "image": "/images/tgohs.webp",
+      "title": "The God of High School",
+      "genre":"Action, Adventure, and Comedy",
+      "totalepisode":"27",
+      "description": "The God of High School is an anime television series adaptation by MAPPA. Jin Mori has proclaimed himself the strongest high schooler. His life changes when he's invited to participate in God of High School, a tournament to determine the strongest high schooler of all. He's told that if he wins, any wish he makes will be granted... All the participants are powerful contenders who fight their hardest for their own wishes. What awaits them at the end of the tournament? A chaotic battle between unbelievably strong high school students is about to begin! ",
+      "availableSub": ["Crunchyroll"],
+      "price": 9.99
+    },
+    {
+      "_id": "anime2",
+      "image": "/images/Aot.jpeg",
+      "title": "Attack on Titan",
+      "genre":"Action, Dark fantasy, and Post-apocalyptic",
+      "totalepisode":"70",
+      "description": "Attack on Titan is a Japanese dark fantasy anime television series adapted from the manga. Known in Japan as Shingeki no Kyojin, many years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the heroic members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured! ",
+      "availableSub": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+      "price": 5.99
+    },
+    {
+      "_id": "anime3",
+      "image": "/images/mha.jpg",
+      "title": "My Hero Academia",
+      "genre":"Adventure, Fantasy, and Superhero",
+      "totalepisode":"91",
+      "description": "My Hero Academia a Japanese superhero manga series written and illustrated by Kōhei Horikoshi. The story follows Izuku Midoriya, Izuku has dreamt of being a hero all his life—a lofty goal for anyone, but especially challenging for a kid with no superpowers. That’s right, in a world where eighty percent of the population has some kind of super-powered “quirk,” Izuku was unlucky enough to be born completely normal. But that’s not enough to stop him from enrolling in one of the world’s most prestigious hero academies.",
+      "availableSub": ["Funimation", "Hulu", "Crunchyroll"],
+      "price": 5.99
+    },
+    {
+      "_id": "anime4",
+      "image": "/images/SAO.jpg",
+      "title": "Sword Art Online",
+      "genre":" Adventure and Science fiction",
+      "totalepisode":"178",
+      "description": "Sword Art Online is a Japanese light novel series written by Reki Kawahara and illustrated by abec. In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called: Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now.",
+      "availableSub": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+      "price": 5.99
+    },
+    {
+      "_id": "anime5",
+      "image": "/images/tokyo_ghoul.webp",
+      "title": "Tokyo Ghoul",
+      "genre":" Dark fantasy, Horror, Supernatural thriller",
+      "totalepisode":"24",
+      "description": "Tokyo Ghoul is a Japanese dark fantasy manga series written and illustrated by Sui Ishida. It was serialized in Shueisha's seinen manga magazine Weekly Young Jump between September 2011 and September 2014, and it has been collected in fourteen tankōbon volumes as of August 2014. This story follows Haise Sasaki who has been tasked with teaching Qs Squad how to be outstanding investigators, but his assignment is complicated by the troublesome personalities of his students and his own uncertain grasp of his Ghoul powers. Can he pull them together as a team, or will Qs Squad first assignment be their last?",
+      "availableSub": ["Funimation", "Hulu", "Crunchyroll"],
+      "price": 9.99
+    },
+    {
+      "_id": "anime6",
+      "image": "/images/one-punch-man.jpg",
+      "title": "One-Punch Man",
+      "genre":"Action, Comedy, and Superhero",
+      "totalepisode":"12",
+      "description": "One-Punch Man is a Japanese superhero franchise created by the artist ONE. It tells the story of Saitama, Saitama started out being a hero just for fun. After three years of “special” training, he became so powerful that he can defeat opponents with a single punch. Now, alongside Genos, his faithful cyborg disciple, Saitama is ready to begin his official duties as a professional hero working with the Hero Association. However, the frequency of monster appearances is surging and it increasingly appears as if the Great Seer Madame Shibabawa’s prediction about the Earth’s doom is coming true. In the midst of this crisis, the “hero hunter” Garou makes his own appearance. ",
+      "availableSub": ["Netflix", "Hulu", "Crunchyroll"],
+      "price": 8.99
+    },
+    {
+      "_id": "anime7",
+      "image": "/images/black_butler.webp",
+      "title": "Black Butler",
+      "genre":"Dark comedy, Dark fantasy, and Supernatural ",
+      "totalepisode":"46",
+      "description": "Black Butler is a Japanese manga series written and illustrated by Yana Toboso. The series follows Ciel Phantomhive, who is the most powerful boy in all of England, but he bears the scars of unspeakable suffering. Forced to watch as his beloved parents were brutally murdered, Ciel was subsequently abducted and violently tortured. Desperate to end his suffering, the boy traded his own soul for a chance at vengeance, casting his lot with the one person on whom he could depend: Sebastian, a demon Butler summoned from the very pits of hell. Together, they’ll prowl the darkest alleys of London on a mission to snuff out those who would do evil.",
+      "availableSub": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+      "price": 8.99
+    },
+    {
+      "_id": "anime8",
+      "image": "/images/kuroko.jpg",
+      "title": "Kuroko's No Basket",
+      "genre":"Comedy and Sports.",
+      "totalepisode":"83",
+      "description": "Kuroko's No Basket is a Japanese sports manga series written and illustrated by Tadatoshi Fujimaki. An up-and-coming power player, Taiga Kagami, is just back from America. When he comes to Seirin High School, he meets the super-ordinary boy, Tetsuya Kuroko. Kagami is shocked to find that Kuroko isn't good at basketball, in fact, he's bad! And he's so plain that he's impossible to see. But Kuroko's plainness lets him pass the ball around without the other team noticing him, and he's none other than the sixth member of the Miracle Generation.",
+      "availableSub": ["Crunchyroll"],
+      "price": 9.99
+    },
+    {
+      "_id": "anime9",
+      "image": "/images/NS.jpg",
+      "title": "Naruto Shippuden",
+      "genre":"Adventure, ‎Fantasy‎, and ‎Martial arts‎‎",
+      "totalepisode":"500",
+      "description": "Naruto Shippuden is an anime series adapted from Part II of Masashi Kishimoto's manga series, with exactly 500 episodes. It is set two and a half years after Part I in the Naruto universe, following the ninja teenager Naruto Uzumaki and his allies.Naruto Uzumaki wants to be the best ninja in the land. He's done well so far, but with the looming danger posed by the mysterious Akatsuki organization, Naruto knows he must train harder than ever and leaves his village for intense exercises that will push him to his limits.",
+      "availableSub": ["Hulu", "Crunchyroll"],
+      "price": 9.99
+    },
+    {
+      "_id": "anime10",
+      "image": "/images/FairyTail.jpg",
+      "title": "Fairy Tail",
+      "genre":"Adventure and Fantasy",
+      "totalepisode":"329",
+      "description": "Fairy Tail is a Japanese manga series written and illustrated by Hiro Mashima. The story follows the adventures of Natsu Dragneel, a member of the popular wizard[a] guild Fairy Tail, as he searches the fictional world of Earth-land for the dragon Igneel. The story also follows a teenage girl named Lucy Heartfilla who is determined to join the notorious magical Fairy Tail Guild. During a daring rescue, she encounters Natsu who is part of the guild and eventually offers her a place. They become teammates performing various missions for the Fairy Tail Guild. Be prepared for an action-packed adventure!",
+      "availableSub": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+      "price": 8.99
+    },
+    {
+      "_id": "anime11",
+      "image": "/images/One-Piece.jpg",
+      "title": "One Piece",
+      "genre":"Adventure and Fantasy.",
+      "totalepisode":"1174",
+      "description": "One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's Weekly Shōnen Jump magazine since July 1997, with its individual chapters compiled into 97 tankōbon volumes as of September 2020. The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after unintentionally eating a Devil Fruit. With his crew of pirates, named the Straw Hat Pirates, Luffy explores the Grand Line in search of the world's ultimate treasure known as One Piece in order to become the next King of the Pirates.",
+      "availableSub": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+      "price": 5.99
+    },
+    {
+      "_id": "anime12",
+      "image": "/images/Naruto.jpg",
+      "title": "Naruto",
+      "genre":"Adventure, Fantasy, and Martial arts",
+      "totalepisode":"220",
+      "description": "Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts. This part is about the Village Hidden in the Leaves is home to the stealthiest ninja. But twelve years earlier, a fearsome Nine-tailed Fox terrorized the village before it was subdued and its spirit sealed within the body of a baby boy.",
+      "availableSub": ["Netflix", "Funimation", "Hulu", "Crunchyroll"],
+      "price": 5.99
+    }
+  ]
+}
   
