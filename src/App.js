@@ -25,7 +25,7 @@ class App extends React.Component {
       sort: "",
     };
   }
-  //propts after subission
+  //propts after submission
   createOrder = (order) =>{
     alert("Need to save order for " + order.name);
   }
