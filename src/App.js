@@ -127,6 +127,17 @@ class App extends React.Component {
         <Carousel><Carousel.Item>
     <img
       className="slide"
+      src="/images/anime1.jpg"
+      alt="Anime"
+    />
+    <Carousel.Caption>
+      <h3>Anime</h3>
+      <p>Anime is hand-drawn and computer animation originating from Japan. Anime, a term derived from the English word animation, is used in Japanese to describe all animated works, regardless of origin. Outside of Japan, anime can refer either to animated works produced in Japan, or to their common visual style, which has since been adopted by a minority of works produced in other countries.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img 
+      className="slide"
       src="/images/Netfilx.jpg"
       alt="Netfilx"
     />
@@ -138,7 +149,7 @@ class App extends React.Component {
   <Carousel.Item>
     <img 
       className="slide"
-      src="/images/Funimation.jpg"
+      src="/images/fun.jpg"
       alt="Funimation"
     />
     <Carousel.Caption>
@@ -160,7 +171,7 @@ class App extends React.Component {
   <Carousel.Item>
     <img
       className="slide"
-      src="/images/crunchyroll.jpg"
+      src="/images/crunchy.jpeg"
       alt="Crunchyroll"
     />
     <Carousel.Caption>

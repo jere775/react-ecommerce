@@ -8,7 +8,7 @@ export default class Filter extends Component {
         <div className="filter-result">{this.props.count} Products</div>
         <div className="filter-sort">
           {/* creates a space between the order and input box */}
-          Order{" "}
+          Price:{" "}
           {/* just passes sort/sub from the parent component APP.js */}
           {/* select box with options and handler*/}
           <select value={this.props.sort} onChange={this.props.sortProducts}>
@@ -20,7 +20,7 @@ export default class Filter extends Component {
         </div>
         {/* second filter by Sub */}
         <div className="filter-sub">
-          Filter{" "}
+          Subscribers:{" "}
           {/* list of all Sub's */}
           <select value={this.props.sub} onChange={this.props.filterProducts}>
             <option value="">ALL</option>
@@ -29,6 +29,7 @@ export default class Filter extends Component {
             <option value="Hulu">Hulu</option>
             <option value="Crunchyroll">Crunchyroll</option>
           </select>
+          
         </div>
       </div>
       
