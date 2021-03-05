@@ -29,6 +29,17 @@ export default class Filter extends Component {
             <option value="Hulu">Hulu</option>
             <option value="Crunchyroll">Crunchyroll</option>
           </select>
+
+          {/* <div className="filter-sub">
+          Genre:{" "} */}
+          {/* list of all Sub's */}
+          {/* <select value={this.props.sub} onChange={this.props.filterProducts}>
+            <option value="">ALL</option>
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Dark fantasy">Dark fantasy</option>
+          </select> */}
           
         </div>
       </div>

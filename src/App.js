@@ -125,14 +125,15 @@ class App extends React.Component {
         <main>
 {/* using bootstap for carousel */}
         <Carousel><Carousel.Item>
-    <img
+    <img 
+    // style={{opacity: '0.8'}}
       className="slide"
       src="/images/anime1.jpg"
       alt="Anime"
     />
-    <Carousel.Caption>
-      <h3>Anime</h3>
-      <p>Anime is hand-drawn and computer animation originating from Japan. Anime, a term derived from the English word animation, is used in Japanese to describe all animated works, regardless of origin. Outside of Japan, anime can refer either to animated works produced in Japan, or to their common visual style, which has since been adopted by a minority of works produced in other countries.</p>
+    <Carousel.Caption >
+      <h3 style={{ fontSize: '30px'}}>Anime</h3>
+      {/* <p style={{fontSize: '15px'}}>Anime is hand-drawn and computer animation originating from Japan.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -142,8 +143,8 @@ class App extends React.Component {
       alt="Netfilx"
     />
     <Carousel.Caption>
-      <h3>Netfilx</h3>
-      <p>Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies without commercials on an internet-connected device.</p>
+      <h3 style={{ fontSize: '30px'}}>Netfilx</h3>
+      <p style={{fontSize: '15px'}}>Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies without commercials on an internet-connected device.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -153,8 +154,8 @@ class App extends React.Component {
       alt="Funimation"
     />
     <Carousel.Caption>
-      <h3>Funimation</h3>
-      <p>Funimation creates extraordinary anime experiences for tens of millions of people around the world every day. For over 25 years, we have been the market leader.</p>
+      <h3 style={{ fontSize: '30px'}}>Funimation</h3>
+      <p style={{fontSize: '15px'}}>Funimation creates extraordinary anime experiences for tens of millions of people around the world every day. For over 25 years, we have been the market leader.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -164,8 +165,8 @@ class App extends React.Component {
       alt="Hulu"
     />
     <Carousel.Caption>
-      <h3>Hulu</h3>
-      <p>Hulu is the leading premium streaming service offering live and on-demand TV and movies, with and without commercials,in and outside the home.</p>
+      <h3 style={{ fontSize: '30px'}}>Hulu</h3>
+      <p style={{fontSize: '15px'}}> Hulu is the leading premium streaming service offering live and on-demand TV and movies, with and without commercials,in and outside the home.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -175,13 +176,16 @@ class App extends React.Component {
       alt="Crunchyroll"
     />
     <Carousel.Caption>
-      <h3>Crunchyroll</h3>
-      <p>Crunchyroll, Inc. is an American distributor, publisher, and licensing company focused on streaming anime, manga, and dorama and was, founded in 2006.</p>
+      <h3 style={{ fontSize: '30px'}}>Crunchyroll</h3>
+      <p style={{fontSize: '15px'}}>Crunchyroll, Inc. is an American distributor, publisher, and licensing company focused on streaming anime, manga, and dorama and was, founded in 2006.</p>
     </Carousel.Caption>
   </Carousel.Item></Carousel>
 
           <div className="content">
-            <div className="main">
+            
+            <div className="main" 
+            // style ="background:powerblue;"
+            >
             {/* <Slider></Slider> */}
               <Filter
                 count={this.state.products.length}
